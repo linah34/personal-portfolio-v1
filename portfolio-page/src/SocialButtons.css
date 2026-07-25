@@ -1,0 +1,37 @@
+.social-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.8rem 1.5rem;
+  border-radius: 999px;
+
+  text-decoration: none;
+  font-weight: 600;
+
+  color: white;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.github {
+  background: #24292f;
+}
+
+.itch {
+  background: #3d8579;
+}
+
+.linkedin {
+  background: #0a66c2;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
